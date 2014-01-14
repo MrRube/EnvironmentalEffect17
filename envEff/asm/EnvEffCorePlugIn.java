@@ -24,7 +24,7 @@ import cpw.mods.fml.relauncher.IFMLLoadingPlugin.TransformerExclusions;
 	    @Override
 	    public String[] getASMTransformerClass()
 	    {
-	    	System.out.println("Hurrrrrrrrrrrrr");
+	    	
 	    	//Debug.println(this, "Hue");
 	        return new String[] { "envEff.asm.EntityRendererTransformer"};//"envEff.asm.FenceTransformer" };
 	    }
